@@ -1,17 +1,17 @@
 {
-    "name": "spoyntersmith/laravel-backpack-help-docs",
+    "name": "pentangle/laravel-backpack-help-docs",
     "description": "This is my package laravel-backpack-help-docs",
     "keywords": [
-        "spoyntersmith",
+        "pentangle",
         "laravel",
         "laravel-backpack-help-docs"
     ],
-    "homepage": "https://github.com/spoyntersmith/laravel-backpack-help-docs",
+    "homepage": "https://github.com/pentangle/laravel-backpack-help-docs",
     "license": "MIT",
     "authors": [
         {
-            "name": "Séan Poynter-Smith",
-            "email": "spoyntersmith@users.noreply.github.com",
+            "name": "Pentangle",
+            "email": "pentangle@users.noreply.github.com",
             "role": "Developer"
         }
     ],
@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spoyntersmith\\LaravelBackpackHelpDocs\\": "src",
-            "Spoyntersmith\\LaravelBackpackHelpDocs\\Database\\Factories\\": "database/factories"
+            "Pentangle\\LaravelBackpackHelpDocs\\": "src",
+            "Pentangle\\LaravelBackpackHelpDocs\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spoyntersmith\\LaravelBackpackHelpDocs\\Tests\\": "tests"
+            "Pentangle\\LaravelBackpackHelpDocs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,15 +45,18 @@
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spoyntersmith\\LaravelBackpackHelpDocs\\LaravelBackpackHelpDocsServiceProvider"
+                "Pentangle\\LaravelBackpackHelpDocs\\LaravelBackpackHelpDocsServiceProvider"
             ],
             "aliases": {
-                "LaravelBackpackHelpDocs": "Spoyntersmith\\LaravelBackpackHelpDocs\\LaravelBackpackHelpDocsFacade"
+                "LaravelBackpackHelpDocs": "Pentangle\\LaravelBackpackHelpDocs\\LaravelBackpackHelpDocsFacade"
             }
         }
     },
