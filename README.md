@@ -30,13 +30,13 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require spoyntersmith/laravel-backpack-help-docs
+composer require pentangle/laravel-backpack-help-docs
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --provider="spoyntersmith\LaravelBackpackHelpDocs\LaravelBackpackHelpDocsServiceProvider" --tag="laravel-backpack-help-docs-migrations"
+php artisan vendor:publish --provider="pentangle\LaravelBackpackHelpDocs\LaravelBackpackHelpDocsServiceProvider" --tag="laravel-backpack-help-docs-migrations"
 php artisan migrate
 ```
 ```bash
@@ -46,7 +46,7 @@ php artisan backpack:add-sidebar-content "<x-help-docs-widget/>"
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="spoyntersmith\LaravelBackpackHelpDocs\LaravelBackpackHelpDocsServiceProvider" --tag="laravel-backpack-help-docs-config"
+php artisan vendor:publish --provider="pentangle\LaravelBackpackHelpDocs\LaravelBackpackHelpDocsServiceProvider" --tag="laravel-backpack-help-docs-config"
 ```
 
 This is the contents of the published config file:
@@ -59,7 +59,7 @@ return [
 ## Usage
 
 ```php
-$laravel-backpack-help-docs = new spoyntersmith\LaravelBackpackHelpDocs();
+$laravel-backpack-help-docs = new pentangle\LaravelBackpackHelpDocs();
 echo $laravel-backpack-help-docs->echoPhrase('Hello, spoyntersmith!');
 ```
 
@@ -83,7 +83,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Séan Poynter-Smith](https://github.com/spoyntersmith)
+- [Pentangle](https://github.com/pentangle)
 - [All Contributors](../../contributors)
 
 ## License
