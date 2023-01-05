@@ -60,7 +60,7 @@ return [
 
 ```php
 $laravel-backpack-help-docs = new pentangle\LaravelBackpackHelpDocs();
-echo $laravel-backpack-help-docs->echoPhrase('Hello, spoyntersmith!');
+echo $laravel-backpack-help-docs->echoPhrase('Hello, pentangle!');
 ```
 
 ## Testing

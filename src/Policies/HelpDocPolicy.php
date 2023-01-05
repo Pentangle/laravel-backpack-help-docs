@@ -1,10 +1,10 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Policies;
+namespace Pentangle\LaravelBackpackHelpDocs\Policies;
 
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Spoyntersmith\LaravelBackpackHelpDocs\Models\HelpDoc;
+use Pentangle\LaravelBackpackHelpDocs\Models\HelpDoc;
 
 class HelpDocPolicy
 {

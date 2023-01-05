@@ -1,6 +1,6 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs;
+namespace Pentangle\LaravelBackpackHelpDocs;
 
 class LaravelBackpackHelpDocs
 {

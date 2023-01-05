@@ -1,14 +1,14 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs;
+namespace Pentangle\LaravelBackpackHelpDocs;
 
 use Illuminate\Support\Facades\Blade;
 use Livewire\Livewire;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Spoyntersmith\LaravelBackpackHelpDocs\Commands\LaravelBackpackHelpDocsCommand;
-use Spoyntersmith\LaravelBackpackHelpDocs\Components\Widget;
-use Spoyntersmith\LaravelBackpackHelpDocs\Http\Livewire\HelpDocsModal;
+use Pentangle\LaravelBackpackHelpDocs\Commands\LaravelBackpackHelpDocsCommand;
+use Pentangle\LaravelBackpackHelpDocs\Components\Widget;
+use Pentangle\LaravelBackpackHelpDocs\Http\Livewire\HelpDocsModal;
 
 class LaravelBackpackHelpDocsServiceProvider extends PackageServiceProvider
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Http\Livewire;
+namespace Pentangle\LaravelBackpackHelpDocs\Http\Livewire;
 
 use Livewire\Component;
 use Livewire\WithPagination;
-use Spoyntersmith\LaravelBackpackHelpDocs\Models\HelpDoc;
+use Pentangle\LaravelBackpackHelpDocs\Models\HelpDoc;
 
 class HelpDocsModal extends Component
 {

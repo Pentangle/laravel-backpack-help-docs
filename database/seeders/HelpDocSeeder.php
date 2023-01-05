@@ -1,6 +1,6 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Database\Seeders;
+namespace Pentangle\LaravelBackpackHelpDocs\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 

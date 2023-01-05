@@ -1,6 +1,6 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Commands;
+namespace Pentangle\LaravelBackpackHelpDocs\Commands;
 
 use Illuminate\Console\Command;
 

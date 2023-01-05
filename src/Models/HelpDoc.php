@@ -1,10 +1,10 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Models;
+namespace Pentangle\LaravelBackpackHelpDocs\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Spoyntersmith\LaravelBackpackHelpDocs\Database\Factories\HelpDocFactory;
+use Pentangle\LaravelBackpackHelpDocs\Database\Factories\HelpDocFactory;
 
 class HelpDoc extends Model
 {

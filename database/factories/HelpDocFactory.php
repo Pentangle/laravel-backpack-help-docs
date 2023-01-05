@@ -1,8 +1,8 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Database\Factories;
+namespace Pentangle\LaravelBackpackHelpDocs\Database\Factories;
 
-use Spoyntersmith\LaravelBackpackHelpDocs\Models\HelpDoc;
+use Pentangle\LaravelBackpackHelpDocs\Models\HelpDoc;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class HelpDocFactory extends Factory

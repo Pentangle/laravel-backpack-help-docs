@@ -1,6 +1,6 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Components;
+namespace Pentangle\LaravelBackpackHelpDocs\Components;
 
 use Illuminate\View\Component;
 

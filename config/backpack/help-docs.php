@@ -1,5 +1,5 @@
 <?php
-// config for Spoyntersmith/LaravelBackpackHelpDocs
+// config for Pentangle/LaravelBackpackHelpDocs
 return [
 
 ];

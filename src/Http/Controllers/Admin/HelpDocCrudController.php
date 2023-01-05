@@ -1,10 +1,10 @@
 <?php
 
-namespace Spoyntersmith\LaravelBackpackHelpDocs\Http\Controllers\Admin;
+namespace Pentangle\LaravelBackpackHelpDocs\Http\Controllers\Admin;
 
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Spoyntersmith\LaravelBackpackHelpDocs\Http\Requests\HelpDocRequest;
+use Pentangle\LaravelBackpackHelpDocs\Http\Requests\HelpDocRequest;
 
 /**
  * Class HelpDocCrudController
@@ -27,7 +27,7 @@ class HelpDocCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\Spoyntersmith\LaravelBackpackHelpDocs\Models\HelpDoc::class);
+        CRUD::setModel(\Pentangle\LaravelBackpackHelpDocs\Models\HelpDoc::class);
         CRUD::setRoute(config('backpack.base.route_prefix').'/help-doc');
         CRUD::setEntityNameStrings('help doc', 'help docs');
         $this->crud->setShowView('laravel-backpack-help-docs::show-help-doc');
