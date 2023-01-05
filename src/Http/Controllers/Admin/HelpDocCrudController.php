@@ -69,14 +69,7 @@ class HelpDocCrudController extends CrudController
         $this->crud->addField([
             'name' => 'content',
             'label' => 'Content',
-            'type' => 'tinymce',
-            'options' => [
-                'plugins' => 'image,link,media',
-                'height' => 500,
-                'removed_menuitems' => 'newdocument',
-                'file_picker_types' => 'image',
-                'images_upload_base_path' => '/help-doc-images',
-            ],
+            'type' => 'ckeditor',
         ]);
 
         /**
@@ -101,9 +94,7 @@ class HelpDocCrudController extends CrudController
     {
         $this->crud->set('show.setFromDb', false);
         $this->crud->column('name');
-        $this->crud->column('content')->type('textarea')->attributes([
-            'escaped' => false,
-        ])->wrapper(['class' => 'w-100']);
+        CRUD::column('content')->type('textarea')->escaped(false);
         $this->crud->removeAllButtons();
     }
 }
