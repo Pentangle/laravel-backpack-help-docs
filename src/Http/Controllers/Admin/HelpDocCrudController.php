@@ -93,7 +93,7 @@ class HelpDocCrudController extends CrudController
     protected function setupShowOperation()
     {
         $this->crud->set('show.setFromDb', false);
-        $this->crud->column('name');
+        CRUD::column('name')->type('textarea')->label('title');
         CRUD::column('content')->type('textarea')->escaped(false);
         $this->crud->removeAllButtons();
     }
