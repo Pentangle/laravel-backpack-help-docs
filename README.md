@@ -1,9 +1,9 @@
 # This is my package laravel-backpack-help-docs
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spoyntersmith/laravel-backpack-help-docs.svg?style=flat-square)](https://packagist.org/packages/spoyntersmith/laravel-backpack-help-docs)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/spoyntersmith/laravel-backpack-help-docs/run-tests?label=tests)](https://github.com/spoyntersmith/laravel-backpack-help-docs/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/spoyntersmith/laravel-backpack-help-docs/Check%20&%20fix%20styling?label=code%20style)](https://github.com/spoyntersmith/laravel-backpack-help-docs/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/spoyntersmith/laravel-backpack-help-docs.svg?style=flat-square)](https://packagist.org/packages/spoyntersmith/laravel-backpack-help-docs)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/pentangle/laravel-backpack-help-docs.svg?style=flat-square)](https://packagist.org/packages/pentangle/laravel-backpack-help-docs)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/pentangle/laravel-backpack-help-docs/run-tests?label=tests)](https://github.com/pentangle/laravel-backpack-help-docs/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/pentangle/laravel-backpack-help-docs/Check%20&%20fix%20styling?label=code%20style)](https://github.com/pentangle/laravel-backpack-help-docs/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/pentangle/laravel-backpack-help-docs.svg?style=flat-square)](https://packagist.org/packages/pentangle/laravel-backpack-help-docs)
 
 ---
 This repo can be used to scaffold a Laravel package. Follow these steps to get started:
